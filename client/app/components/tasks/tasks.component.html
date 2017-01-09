@@ -1,0 +1,13 @@
+ <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Summary</th>
+        <th>Completed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let task of tasksList">
+        <td>{{task.username}}</td>
+        <td>{{task.password}}</td>
+    </tbody>
+  </table>
